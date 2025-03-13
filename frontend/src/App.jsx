@@ -30,7 +30,7 @@ function App() {
   const [requests, setRequests] = useState([]);
   const [activeTab, setActiveTab] = useState('dashboard');
   
-  const contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+  const contractAddress = "0xE253894794b07bc042B05242a6766dD19Feb6E2c";
 
   useEffect(() => {
     const init = async () => {
